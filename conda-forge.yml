@@ -1,1 +1,16 @@
-{}
+github:
+  user_or_org: metatensor
+
+github_actions:
+  timeout_minutes: 1000
+  store_build_artifacts: True
+  triggers:
+  - push
+  - pull_request
+
+provider:
+  linux_64: github_actions
+  linux_aarch64: github_actions
+  osx_64: github_actions
+  osx_arm64: github_actions
+  win_64: github_actions
