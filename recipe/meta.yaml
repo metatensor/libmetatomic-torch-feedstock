@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set url_base = "https://github.com/metatensor/metatomic/releases/download" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: {{ url_base }}/metatomic-torch-v{{ version }}/metatomic-torch-cxx-{{ version }}.tar.gz
-  sha256: 2dc0a0213b7f5df3ac519516f1b17801baa6973d96b339f0b39cadea310fefe1
+  sha256: 432c8adb3185f4f2f958328fda2a7551c7cdac6224024cbe2e9f1b9f63bf3aaa
 
 build:
   number: 0
